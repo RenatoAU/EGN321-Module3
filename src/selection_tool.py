@@ -10,7 +10,6 @@ Required behavior:
 6. Return useful details about how the result was produced.
 """
 
-"""Validated exact-lookup and interpolation tool for valve coefficients."""
 
 from numbers import Real
 
