@@ -10,6 +10,8 @@ Required behavior:
 6. Return useful details about how the result was produced.
 """
 
+"""Validated exact-lookup and interpolation tool for valve coefficients."""
+
 from numbers import Real
 
 from src.interpolation import linear_interpolate
@@ -94,4 +96,5 @@ def select_coefficient(valve_family, temperature_c):
 
     # Reaching this point means the source table is empty, unsorted, or has a gap.
     raise RuntimeError("No surrounding table rows were found for the request")
+
 
